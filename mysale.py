@@ -61,6 +61,6 @@ d.plotly_chart(fig_line_sales_by_month, use_container_width = True)
 fig_total_QuantityOrdered = px.scatter(
     df,
     x = 'Total',
-    y = 'QutantityOrdered',
+    y = 'QuantityOrdered',
     title = 'Sale total amount')
 e.plotly_chart(fig_total_QuantityOrdered, use_container_width = True)
